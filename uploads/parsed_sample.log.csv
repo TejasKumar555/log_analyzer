@@ -1,0 +1,18 @@
+timestamp,level,message
+2025-06-01 14:30:00,INFO,Application started successfully
+2025-06-01 14:30:01,DEBUG,Database connection established
+2025-06-01 14:30:02,INFO,User logged in with ID: 12345
+2025-06-01 14:30:03,WARNING,Low memory warning: 10% available
+2025-06-01 14:30:04,ERROR,Failed to process request: Timeout
+2025-06-01 14:30:05,CRITICAL,System shutdown initiated
+2025-06-01 14:30:06,INFO,Application shutdown complete
+2025-06-01 14:30:07,DEBUG,Cleanup completed
+2025-06-01 14:30:08,WARNING,Disk space low: 5GB remaining
+2025-06-01 14:30:09,ERROR,Failed to backup data: Permission denied
+2025-06-01 14:30:10,INFO,Backup operation failed
+2025-06-01 14:30:11,DEBUG,Attempting manual backup
+2025-06-01 14:30:12,INFO,Manual backup successful
+2025-06-01 14:30:13,WARNING,High CPU usage detected: 95%
+2025-06-01 14:30:14,ERROR,Network connection lost
+2025-06-01 14:30:15,CRITICAL,Emergency shutdown initiated
+2025-06-01 14:30:16,INFO,System shutdown complete

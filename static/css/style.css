@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+.text-gradient {
+    background: linear-gradient(90deg,#007cf0,#00dfd8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+    background: rgba(255,255,255,0.85);
+    border: none;
+}
+.card-title, .fw-bold {
+    color: #007cf0;
+}
+#uploadSpinner {
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+.badge {
+    font-size: 0.95em;
+    padding: 0.5em 0.8em;
+    border-radius: 0.5rem;
+}
+.badge-info { background: #00dfd8; color: #fff; }
+.badge-warning { background: #ffc107; color: #fff; }
+.badge-danger { background: #dc3545; color: #fff; }
+.badge-success { background: #28a745; color: #fff; }
+.badge-secondary { background: #6c757d; color: #fff; }
+.table-custom {
+    background: rgba(255,255,255,0.97);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.table-custom th {
+    background: #007cf0;
+    color: #fff;
+}
+#uniqueMessages, #activeUsers, #idlePeriods {
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 0.97em;
+}
+#levelPie {
+    min-height: 250px;
+}
+::-webkit-scrollbar { width: 8px; background: #e3e9f0; }
+::-webkit-scrollbar-thumb { background: #b3c0d1; border-radius: 8px; }
+@media (max-width: 991px) {
+    .col-lg-4, .col-lg-8, .col-md-6, .col-md-12 { margin-bottom: 1.5rem; }
+}
+
